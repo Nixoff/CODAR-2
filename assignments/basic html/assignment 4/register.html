@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/layout.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <a id="topo"></a>
+    <div class="regform">
+      
+      <img
+        src="avatars/avatar2.svg"
+        alt="avatar do formulario"
+        style="width: 140px"
+      />
+    </div>
+    <div class="main">
+      <form id="myForm" name="myForm"">
+
+      <h2 class="name">Name</h2>
+      <input type="text" class="email" id="login" />
+
+      <h2 class="name">E-mail</h2>
+      <input type="email" class="email" id="email" required />
+
+
+      <h2 class="name">Password</h2>
+      <input type="password" class="pass" id="password" required>
+      
+      <h2 class="name">Confirm Password</h2>
+      <input type="password" class="pass" id="confirm_password" required>
+      <div id="error"></div>
+      <!-- botao personalizado -->
+
+      <!-- 
+  Using Modernizr.js for smartphone.
+  http://modernizr.com
+-->
+
+      <input
+        type="button"
+        id="register"
+        class="button-text"
+        value="Register"
+        onclick="validate()"
+      />
+      <h2>Already have an account?<a href="login.html"> Sign in!</a></h2>
+    </div>
+  </body>
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="register.js"></script>
+</html>

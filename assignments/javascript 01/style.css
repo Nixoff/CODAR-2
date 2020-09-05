@@ -1,0 +1,94 @@
+#button\.green {
+	width: 91px;
+	position: absolute;
+	top: 8px;
+	left: 120px;
+}
+
+#button\.red {
+	width: 91px;
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+
+.green {
+	box-shadow:inset 0px 1px 0px 0px #97f093;
+	background:linear-gradient(to bottom, #00fc43 5%, #0acc00 100%);
+	background-color:#00fc43;
+	border-radius:6px;
+	border:1px solid #67d428;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #34b03d;
+  outline: none;
+  
+}
+.green:hover {
+	background:linear-gradient(to bottom, #0acc00 5%, #00fc43 100%);
+	background-color:#0acc00;
+}
+.green:active {
+	position:relative;
+	top:1px;
+}
+
+        
+
+.red {
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 15px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #b23e35;
+  outline: none;
+}
+.red:hover {
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+.red:active {
+	position:relative;
+	top:-30px;
+}
+
+				
+
+.divRed {
+	width: 100%;
+	padding: 25px;
+	top: 31px;
+	position: relative;
+	background-color: red;
+	height: 602px;
+	color: white;
+	font-size: 25px;
+	box-sizing: border-box;
+}
+
+.divGreen {
+	width: 100%;
+	padding: 25px;
+	top: 31px;
+	position: relative;
+	background-color: green;
+	height: 602px;
+	color: white;
+	font-size: 25px;
+	box-sizing: border-box;
+}

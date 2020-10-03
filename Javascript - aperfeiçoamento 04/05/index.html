@@ -9,12 +9,15 @@
     <main>
         <h1>Cotações de Moedas</h1>
         <label for="coin">Selecione a moeda:</label>
-        <select name="" id="">
+        <select name="" id="coinName">
             <option class="coin_dollar">USD</option>
+            <option class="coin_dollar_canadense">CAD</option>
+            <option class="coin_euro">EUR</option>
+            <option class="coin_libra">GBP</option>
         </select> <br>
-        <button type="submit">Submit</button>
+        <button type="submit" onclick="grabPrice()">Submit</button>
 
-        <p>Valor da moeda em REAL: R$</p>
+        <p>Valor da moeda em REAL: R$ <span id="coinValue">0</span></p>
     </main>
 </body>
 <script src="script.js"></script>

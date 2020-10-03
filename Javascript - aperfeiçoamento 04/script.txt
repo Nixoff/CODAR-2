@@ -1,0 +1,88 @@
+var el = document.getElementById('resultado');
+var i = 0;
+var text = "";
+var x = ' Repetição';
+
+
+/* for (var i = 0; i < 20; i++) {
+    el.innerHTML += '<br>' + ' Repetição';
+}
+ */
+
+
+/*  function repeat(element) {
+    el.innerHTML += '<br>' + element;
+
+ }
+
+ ['Repetição', 'Repetição', 'Repetição', 'Repetição', 'Repetição', ].forEach(repeat); */
+
+
+
+/*   while (i < 5) {
+    i++;
+    el.innerHTML += '<br>' + x;
+ } */
+
+ 
+ 
+/*  while (i < 11) {
+    text += "<br>" + i;
+    i++;
+    el.innerHTML = text;
+} */
+
+
+
+/* var j=0, msg="";
+while (j<=20){
+     if(j ==20){
+       msg +=j;
+       break;
+     }
+     if(j%2 !=0){
+       msg += "";
+     }else{
+       msg += j + ", ";
+    }
+    j++;
+  };
+console.log(msg); */
+
+
+
+
+
+
+
+
+
+
+
+
+
+var el = document.getElementById('resultado');
+
+const usuarios = [
+    { nome: 'Caio', idade: 25, empresa: 'Google' },
+    { nome: 'Tiago', idade: 35, empresa: 'Microsoft' },
+    { nome: 'Felipe', idade: 30, empresa: 'Apple' },
+   ];
+   
+
+/*    function getAges(item) {
+       var ages = [item.idade].join(" ");
+       return ages;
+   }
+
+    el.innerHTML = usuarios.map(getAges);
+ */
+
+
+ function checkCompanyAge(empresa, idade) {
+     return idade >=30, empresa = Apple;
+ }
+
+ function gab() {
+     el.innerHTML = idade.filter(checkCompanyAge);
+ }
